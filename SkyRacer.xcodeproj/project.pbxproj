@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FCC35AC19A0F6C100BC5ACE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCC35AB19A0F6C100BC5ACE /* Cocoa.framework */; };
+		7FCC35AE19A0F6C100BC5ACE /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCC35AD19A0F6C100BC5ACE /* SpriteKit.framework */; };
+		7FCC35B819A0F6C100BC5ACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FCC35B619A0F6C100BC5ACE /* InfoPlist.strings */; };
+		7FCC35BA19A0F6C100BC5ACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCC35B919A0F6C100BC5ACE /* main.m */; };
+		7FCC35BE19A0F6C100BC5ACE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7FCC35BC19A0F6C100BC5ACE /* Credits.rtf */; };
+		7FCC35C019A0F6C100BC5ACE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FCC35BF19A0F6C100BC5ACE /* MainMenu.xib */; };
+		7FCC35C219A0F6C100BC5ACE /* SRMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCC35C119A0F6C100BC5ACE /* SRMyScene.m */; };
+		7FCC35C519A0F6C100BC5ACE /* SRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCC35C419A0F6C100BC5ACE /* SRAppDelegate.m */; };
+		7FCC35C819A0F6C100BC5ACE /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FCC35C719A0F6C100BC5ACE /* Spaceship.png */; };
+		7FCC35CA19A0F6C100BC5ACE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCC35C919A0F6C100BC5ACE /* Images.xcassets */; };
+		7FCC35D119A0F6C100BC5ACE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCC35D019A0F6C100BC5ACE /* XCTest.framework */; };
+		7FCC35D219A0F6C100BC5ACE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCC35AB19A0F6C100BC5ACE /* Cocoa.framework */; };
+		7FCC35DA19A0F6C100BC5ACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FCC35D819A0F6C100BC5ACE /* InfoPlist.strings */; };
+		7FCC35DC19A0F6C100BC5ACE /* SkyRacerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCC35DB19A0F6C100BC5ACE /* SkyRacerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FCC35D319A0F6C100BC5ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FCC35A019A0F6C100BC5ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FCC35A719A0F6C100BC5ACE;
+			remoteInfo = SkyRacer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FCC35A819A0F6C100BC5ACE /* SkyRacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyRacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCC35AB19A0F6C100BC5ACE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7FCC35AD19A0F6C100BC5ACE /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		7FCC35B019A0F6C100BC5ACE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7FCC35B119A0F6C100BC5ACE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7FCC35B219A0F6C100BC5ACE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FCC35B519A0F6C100BC5ACE /* SkyRacer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkyRacer-Info.plist"; sourceTree = "<group>"; };
+		7FCC35B719A0F6C100BC5ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FCC35B919A0F6C100BC5ACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FCC35BB19A0F6C100BC5ACE /* SkyRacer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SkyRacer-Prefix.pch"; sourceTree = "<group>"; };
+		7FCC35BD19A0F6C100BC5ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7FCC35BF19A0F6C100BC5ACE /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		7FCC35C119A0F6C100BC5ACE /* SRMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRMyScene.m; sourceTree = "<group>"; };
+		7FCC35C319A0F6C100BC5ACE /* SRMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRMyScene.h; sourceTree = "<group>"; };
+		7FCC35C419A0F6C100BC5ACE /* SRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAppDelegate.m; sourceTree = "<group>"; };
+		7FCC35C619A0F6C100BC5ACE /* SRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRAppDelegate.h; sourceTree = "<group>"; };
+		7FCC35C719A0F6C100BC5ACE /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		7FCC35C919A0F6C100BC5ACE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7FCC35CF19A0F6C100BC5ACE /* SkyRacerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyRacerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCC35D019A0F6C100BC5ACE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7FCC35D719A0F6C100BC5ACE /* SkyRacerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkyRacerTests-Info.plist"; sourceTree = "<group>"; };
+		7FCC35D919A0F6C100BC5ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FCC35DB19A0F6C100BC5ACE /* SkyRacerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkyRacerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FCC35A519A0F6C100BC5ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCC35AE19A0F6C100BC5ACE /* SpriteKit.framework in Frameworks */,
+				7FCC35AC19A0F6C100BC5ACE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCC35CC19A0F6C100BC5ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCC35D219A0F6C100BC5ACE /* Cocoa.framework in Frameworks */,
+				7FCC35D119A0F6C100BC5ACE /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FCC359F19A0F6C100BC5ACE = {
+			isa = PBXGroup;
+			children = (
+				7FCC35B319A0F6C100BC5ACE /* SkyRacer */,
+				7FCC35D519A0F6C100BC5ACE /* SkyRacerTests */,
+				7FCC35AA19A0F6C100BC5ACE /* Frameworks */,
+				7FCC35A919A0F6C100BC5ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FCC35A919A0F6C100BC5ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FCC35A819A0F6C100BC5ACE /* SkyRacer.app */,
+				7FCC35CF19A0F6C100BC5ACE /* SkyRacerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FCC35AA19A0F6C100BC5ACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FCC35AB19A0F6C100BC5ACE /* Cocoa.framework */,
+				7FCC35AD19A0F6C100BC5ACE /* SpriteKit.framework */,
+				7FCC35D019A0F6C100BC5ACE /* XCTest.framework */,
+				7FCC35AF19A0F6C100BC5ACE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FCC35AF19A0F6C100BC5ACE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FCC35B019A0F6C100BC5ACE /* AppKit.framework */,
+				7FCC35B119A0F6C100BC5ACE /* CoreData.framework */,
+				7FCC35B219A0F6C100BC5ACE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7FCC35B319A0F6C100BC5ACE /* SkyRacer */ = {
+			isa = PBXGroup;
+			children = (
+				7FCC35BF19A0F6C100BC5ACE /* MainMenu.xib */,
+				7FCC35C119A0F6C100BC5ACE /* SRMyScene.m */,
+				7FCC35C319A0F6C100BC5ACE /* SRMyScene.h */,
+				7FCC35C419A0F6C100BC5ACE /* SRAppDelegate.m */,
+				7FCC35C619A0F6C100BC5ACE /* SRAppDelegate.h */,
+				7FCC35C719A0F6C100BC5ACE /* Spaceship.png */,
+				7FCC35C919A0F6C100BC5ACE /* Images.xcassets */,
+				7FCC35B419A0F6C100BC5ACE /* Supporting Files */,
+			);
+			path = SkyRacer;
+			sourceTree = "<group>";
+		};
+		7FCC35B419A0F6C100BC5ACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FCC35B519A0F6C100BC5ACE /* SkyRacer-Info.plist */,
+				7FCC35B619A0F6C100BC5ACE /* InfoPlist.strings */,
+				7FCC35B919A0F6C100BC5ACE /* main.m */,
+				7FCC35BB19A0F6C100BC5ACE /* SkyRacer-Prefix.pch */,
+				7FCC35BC19A0F6C100BC5ACE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FCC35D519A0F6C100BC5ACE /* SkyRacerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FCC35DB19A0F6C100BC5ACE /* SkyRacerTests.m */,
+				7FCC35D619A0F6C100BC5ACE /* Supporting Files */,
+			);
+			path = SkyRacerTests;
+			sourceTree = "<group>";
+		};
+		7FCC35D619A0F6C100BC5ACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FCC35D719A0F6C100BC5ACE /* SkyRacerTests-Info.plist */,
+				7FCC35D819A0F6C100BC5ACE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FCC35A719A0F6C100BC5ACE /* SkyRacer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCC35DF19A0F6C100BC5ACE /* Build configuration list for PBXNativeTarget "SkyRacer" */;
+			buildPhases = (
+				7FCC35A419A0F6C100BC5ACE /* Sources */,
+				7FCC35A519A0F6C100BC5ACE /* Frameworks */,
+				7FCC35A619A0F6C100BC5ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyRacer;
+			productName = SkyRacer;
+			productReference = 7FCC35A819A0F6C100BC5ACE /* SkyRacer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FCC35CE19A0F6C100BC5ACE /* SkyRacerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCC35E219A0F6C100BC5ACE /* Build configuration list for PBXNativeTarget "SkyRacerTests" */;
+			buildPhases = (
+				7FCC35CB19A0F6C100BC5ACE /* Sources */,
+				7FCC35CC19A0F6C100BC5ACE /* Frameworks */,
+				7FCC35CD19A0F6C100BC5ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FCC35D419A0F6C100BC5ACE /* PBXTargetDependency */,
+			);
+			name = SkyRacerTests;
+			productName = SkyRacerTests;
+			productReference = 7FCC35CF19A0F6C100BC5ACE /* SkyRacerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FCC35A019A0F6C100BC5ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "White Shoe Media";
+				TargetAttributes = {
+					7FCC35CE19A0F6C100BC5ACE = {
+						TestTargetID = 7FCC35A719A0F6C100BC5ACE;
+					};
+				};
+			};
+			buildConfigurationList = 7FCC35A319A0F6C100BC5ACE /* Build configuration list for PBXProject "SkyRacer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FCC359F19A0F6C100BC5ACE;
+			productRefGroup = 7FCC35A919A0F6C100BC5ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FCC35A719A0F6C100BC5ACE /* SkyRacer */,
+				7FCC35CE19A0F6C100BC5ACE /* SkyRacerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FCC35A619A0F6C100BC5ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCC35C819A0F6C100BC5ACE /* Spaceship.png in Resources */,
+				7FCC35CA19A0F6C100BC5ACE /* Images.xcassets in Resources */,
+				7FCC35B819A0F6C100BC5ACE /* InfoPlist.strings in Resources */,
+				7FCC35BE19A0F6C100BC5ACE /* Credits.rtf in Resources */,
+				7FCC35C019A0F6C100BC5ACE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCC35CD19A0F6C100BC5ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCC35DA19A0F6C100BC5ACE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FCC35A419A0F6C100BC5ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCC35BA19A0F6C100BC5ACE /* main.m in Sources */,
+				7FCC35C519A0F6C100BC5ACE /* SRAppDelegate.m in Sources */,
+				7FCC35C219A0F6C100BC5ACE /* SRMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCC35CB19A0F6C100BC5ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCC35DC19A0F6C100BC5ACE /* SkyRacerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FCC35D419A0F6C100BC5ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FCC35A719A0F6C100BC5ACE /* SkyRacer */;
+			targetProxy = 7FCC35D319A0F6C100BC5ACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FCC35B619A0F6C100BC5ACE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FCC35B719A0F6C100BC5ACE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7FCC35BC19A0F6C100BC5ACE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FCC35BD19A0F6C100BC5ACE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7FCC35D819A0F6C100BC5ACE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FCC35D919A0F6C100BC5ACE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FCC35DD19A0F6C100BC5ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7FCC35DE19A0F6C100BC5ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7FCC35E019A0F6C100BC5ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkyRacer/SkyRacer-Prefix.pch";
+				INFOPLIST_FILE = "SkyRacer/SkyRacer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FCC35E119A0F6C100BC5ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkyRacer/SkyRacer-Prefix.pch";
+				INFOPLIST_FILE = "SkyRacer/SkyRacer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7FCC35E319A0F6C100BC5ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SkyRacer.app/Contents/MacOS/SkyRacer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkyRacer/SkyRacer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SkyRacerTests/SkyRacerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7FCC35E419A0F6C100BC5ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SkyRacer.app/Contents/MacOS/SkyRacer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkyRacer/SkyRacer-Prefix.pch";
+				INFOPLIST_FILE = "SkyRacerTests/SkyRacerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FCC35A319A0F6C100BC5ACE /* Build configuration list for PBXProject "SkyRacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCC35DD19A0F6C100BC5ACE /* Debug */,
+				7FCC35DE19A0F6C100BC5ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FCC35DF19A0F6C100BC5ACE /* Build configuration list for PBXNativeTarget "SkyRacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCC35E019A0F6C100BC5ACE /* Debug */,
+				7FCC35E119A0F6C100BC5ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FCC35E219A0F6C100BC5ACE /* Build configuration list for PBXNativeTarget "SkyRacerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCC35E319A0F6C100BC5ACE /* Debug */,
+				7FCC35E419A0F6C100BC5ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FCC35A019A0F6C100BC5ACE /* Project object */;
+}
